@@ -33,9 +33,9 @@ Current DNS Server: 10.0.10.1
 litening to 323, 53, 68, 8080, 22.
 
 ## Running Services
-systemctl list-units --type=service --state=running ;
+## command - systemctl list-units --type=service --state=running;
   UNIT                                                  
-  chrony.service              
+  chrony.service            
   dbus.service                
   fail2ban.service           
   getty@tty1.service        
