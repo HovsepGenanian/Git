@@ -59,13 +59,21 @@ uptime  :
 11:07:46 up 1 day, 23:20,  1 user,  load average: 0.00, 0.00, 0.00 
 diskspace : 
 Filesystem      Size  Used Avail Use% Mounted on 
+
 /dev/root        30G  1.5G   29G   5% / 
+
 tmpfs           984M     0  984M   0% /dev/shm  
+
 tmpfs           394M  716K  393M   1% /run 
+
 tmpfs           5.0M     0  5.0M   0% /run/lock 
+
 /dev/sda16      881M  151M  669M  19% /boot 
+
 /dev/sda15      105M  6.2M   99M   6% /boot/efi 
-tmpfs           197M  8.0K  197M   1% /run/user/1002  
+
+tmpfs           197M  8.0K  197M   1% /run/user/1002
+
 disk inodes : 
 Filesystem      Inodes IUsed   IFree IUse% Mounted on
 /dev/root      4063232 32542 4030690    1% / 
