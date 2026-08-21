@@ -15,9 +15,15 @@ Ubuntu 24.04.4 LTS
 Mem:         2014144      323088     1103172         728      754624     1691056
 Swap:              0           0           0
 ## Disk
-	               total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       322Mi       1.0Gi       744Ki       731Mi       1.6Gi
-Swap:             0B          0B          0B
+	NAME     SIZE TYPE
+sda       32G disk
+├─sda1    31G part
+├─sda14    4M part
+├─sda15  106M part
+└─sda16  913M part
+sr0        4M rom
+sr1     1024M rom
+
 ## Network
 
 ## Listening Ports
