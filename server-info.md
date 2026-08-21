@@ -22,9 +22,12 @@ Swap:              0           0           0
 lo               UNKNOWN        127.0.0.1/8 ::1/128 
 eth0             UP             10.0.10.175/24 metric 100 fe80::be24:11ff:fe4b:2f35/64 
 
-default via 10.0.10.1 dev eth0 proto dhcp src 10.0.10.175 metric 100 
+default via 10.0.10.1 dev eth0 proto dhcp src 10.0.10.175 metric 100       
+
 8.8.8.8 via 10.0.10.1 dev eth0 proto dhcp src 10.0.10.175 metric 100 
+
 10.0.10.0/24 dev eth0 proto kernel scope link src 10.0.10.175 metric 100 
+
 10.0.10.1 dev eth0 proto dhcp scope link src 10.0.10.175 metric 100 
 
 Current DNS Server: 10.0.10.1
