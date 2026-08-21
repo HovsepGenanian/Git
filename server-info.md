@@ -1,11 +1,9 @@
 # Server Information
-user logged with “who” command.
-	sard     pts/0        2026-08-21 05:42 (10.0.10.10)
+sard     pts/0        2026-08-21 05:42 (10.0.10.10)
 Hovsep   pts/1        2026-08-21 06:42 (10.0.20.169)
-2)checked hostnames with “users” command
-	Hovsep sard
-3)checked current directory with “pwd” command
-	/home/Hovsep
+users:
+Hovsep sard
+
 ## Operating System
 Ubuntu 24.04.4 LTS
 ## Kernel
