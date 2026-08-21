@@ -9,11 +9,11 @@ Ubuntu 24.04.4 LTS
 ## Kernel
 6.8.0-137-generic
 ## CPU
- QEMU Virtual CPU version 2.5+
+ 4
 ## Memory
-               total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       315Mi       1.1Gi       728Ki       736Mi       1.6Gi
-Swap:             0B          0B          0B
+  total        used        free      shared  buff/cache   available
+Mem:         2014144      323088     1103172         728      754624     1691056
+Swap:              0           0           0
 ## Disk
 	               total        used        free      shared  buff/cache   available
 Mem:           1.9Gi       322Mi       1.0Gi       744Ki       731Mi       1.6Gi
