@@ -78,13 +78,13 @@ tmpfs            50353    30   50323    1% /run/user/1002
 failed systems : 
 0 loaded units listed. 
 recent errors : 
-Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1  
 
-Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1  
 
-Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1  
 
-Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1  
 
 Aug 21 09:08:35 intern-srv-l1 sudo[10308]:   Hovsep : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/Hovsep ; USER=root ; COMMAND=/u> 
 ## Troubleshooting Exercise
