@@ -75,14 +75,22 @@ tmpfs           5.0M     0  5.0M   0% /run/lock
 tmpfs           197M  8.0K  197M   1% /run/user/1002
 
 disk inodes : 
-Filesystem      Inodes IUsed   IFree IUse% Mounted on
+Filesystem      Inodes IUsed   IFree IUse% Mounted on 
+
 /dev/root      4063232 32542 4030690    1% / 
+
 tmpfs           251768     1  251767    1% /dev/shm 
+
 tmpfs           819200   695  818505    1% /run 
+
 tmpfs           251768     3  251765    1% /run/lock 
+
 /dev/sda16       58496   605   57891    2% /boot 
+
 /dev/sda15           0     0       0     - /boot/efi 
+
 tmpfs            50353    30   50323    1% /run/user/1002 
+
 failed systems : 
 0 loaded units listed. 
 recent errors : 
