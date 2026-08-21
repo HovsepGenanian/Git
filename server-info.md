@@ -55,7 +55,34 @@ litening to 323, 53, 68, 8080, 22.
   unattended-upgrades.service 
   user@1002.service          
 ## System Health
-top
+uptime  : 
+11:07:46 up 1 day, 23:20,  1 user,  load average: 0.00, 0.00, 0.00 
+diskspace : 
+Filesystem      Size  Used Avail Use% Mounted on 
+/dev/root        30G  1.5G   29G   5% / 
+tmpfs           984M     0  984M   0% /dev/shm  
+tmpfs           394M  716K  393M   1% /run 
+tmpfs           5.0M     0  5.0M   0% /run/lock 
+/dev/sda16      881M  151M  669M  19% /boot 
+/dev/sda15      105M  6.2M   99M   6% /boot/efi 
+tmpfs           197M  8.0K  197M   1% /run/user/1002  
+disk inodes : 
+Filesystem      Inodes IUsed   IFree IUse% Mounted on
+/dev/root      4063232 32542 4030690    1% / 
+tmpfs           251768     1  251767    1% /dev/shm 
+tmpfs           819200   695  818505    1% /run 
+tmpfs           251768     3  251765    1% /run/lock 
+/dev/sda16       58496   605   57891    2% /boot 
+/dev/sda15           0     0       0     - /boot/efi 
+tmpfs            50353    30   50323    1% /run/user/1002 
+failed systems : 
+0 loaded units listed. 
+recent errors : 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 08:25:37 intern-srv-l1 sshd[9881]: error: channel 0: chan_read_failed for istate 1 
+Aug 21 09:08:35 intern-srv-l1 sudo[10308]:   Hovsep : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/Hovsep ; USER=root ; COMMAND=/u> 
 ## Troubleshooting Exercise
 ps
 ### Problem
