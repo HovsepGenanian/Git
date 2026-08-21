@@ -24,7 +24,24 @@ Swap:             0B          0B          0B
 litening to 323, 53, 68, 8080, 22.
 
 ## Running Services
-systemctl list-units --type=service --state=running
+systemctl list-units --type=service --state=running ;
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION                                   
+  chrony.service              loaded active running chrony, an NTP client/server
+  dbus.service                loaded active running D-Bus System Message Bus
+  fail2ban.service            loaded active running Fail2Ban Service
+  getty@tty1.service          loaded active running Getty on tty1
+  nginx.service               loaded active running nginx - high performance web server
+  polkit.service              loaded active running Authorization Manager
+  qemu-guest-agent.service    loaded active running QEMU Guest Agent
+  serial-getty@ttyS0.service  loaded active running Serial Getty on ttyS0
+  ssh.service                 loaded active running OpenBSD Secure Shell server
+  systemd-journald.service    loaded active running Journal Service
+  systemd-logind.service      loaded active running User Login Management
+  systemd-networkd.service    loaded active running Network Configuration
+  systemd-resolved.service    loaded active running Network Name Resolution
+  systemd-udevd.service       loaded active running Rule-based Manager for Device Events and Files
+  unattended-upgrades.service loaded active running Unattended Upgrades Shutdown
+  user@1002.service           loaded active running User Manager for UID 1002
 ## System Health
 top
 ## Troubleshooting Exercise
