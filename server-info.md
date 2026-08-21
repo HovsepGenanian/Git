@@ -16,38 +16,41 @@ Mem:         2014144      323088     1103172         728      754624     1691056
 Swap:              0           0           0
 ## Disk
 	NAME     SIZE TYPE
-sda       32G disk
-├─sda1    31G part
-├─sda14    4M part
-├─sda15  106M part
-└─sda16  913M part
-sr0        4M rom
-sr1     1024M rom
+32G disk
 
 ## Network
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eth0             UP             10.0.10.175/24 metric 100 fe80::be24:11ff:fe4b:2f35/64 
 
+default via 10.0.10.1 dev eth0 proto dhcp src 10.0.10.175 metric 100 
+8.8.8.8 via 10.0.10.1 dev eth0 proto dhcp src 10.0.10.175 metric 100 
+10.0.10.0/24 dev eth0 proto kernel scope link src 10.0.10.175 metric 100 
+10.0.10.1 dev eth0 proto dhcp scope link src 10.0.10.175 metric 100 
+
+Current DNS Server: 10.0.10.1
+       DNS Servers: 10.0.10.1 8.8.8.8
 ## Listening Ports
 litening to 323, 53, 68, 8080, 22.
 
 ## Running Services
 systemctl list-units --type=service --state=running ;
-  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION                                   
-  chrony.service              loaded active running chrony, an NTP client/server
-  dbus.service                loaded active running D-Bus System Message Bus
-  fail2ban.service            loaded active running Fail2Ban Service
-  getty@tty1.service          loaded active running Getty on tty1
-  nginx.service               loaded active running nginx - high performance web server
-  polkit.service              loaded active running Authorization Manager
-  qemu-guest-agent.service    loaded active running QEMU Guest Agent
-  serial-getty@ttyS0.service  loaded active running Serial Getty on ttyS0
-  ssh.service                 loaded active running OpenBSD Secure Shell server
-  systemd-journald.service    loaded active running Journal Service
-  systemd-logind.service      loaded active running User Login Management
-  systemd-networkd.service    loaded active running Network Configuration
-  systemd-resolved.service    loaded active running Network Name Resolution
-  systemd-udevd.service       loaded active running Rule-based Manager for Device Events and Files
-  unattended-upgrades.service loaded active running Unattended Upgrades Shutdown
-  user@1002.service           loaded active running User Manager for UID 1002
+  UNIT                                                  
+  chrony.service              
+  dbus.service                
+  fail2ban.service           
+  getty@tty1.service        
+  nginx.service               
+  polkit.service             
+  qemu-guest-agent.service    
+  serial-getty@ttyS0.service 
+  ssh.service                 
+  systemd-journald.service   
+  systemd-logind.service     
+  systemd-networkd.service    
+  systemd-resolved.service    
+  systemd-udevd.service      
+  unattended-upgrades.service 
+  user@1002.service          
 ## System Health
 top
 ## Troubleshooting Exercise
